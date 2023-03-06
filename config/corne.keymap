@@ -36,6 +36,16 @@
             bindings = <&kp TAB>;
             key-positions = <0 1>;
         };
+
+        ALT {
+            bindings = <&kp LALT>;
+            key-positions = <37 38>;
+        };
+
+        GUI {
+            bindings = <&kp LGUI>;
+            key-positions = <36 37>;
+        };
     };
 
     macros {
