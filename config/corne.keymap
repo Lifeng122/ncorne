@@ -89,10 +89,10 @@
         TWO {
             label = "S-CUT";
             bindings = <
-&trans      &to 4      &kp RS(HOME)    &kp LC(LS(UP))        &kp RS(END)   &to 5      &kp HOME  &kp PAGE_UP             &kp UP  &kp PAGE_DOWN           &mo 3  &trans
-&trans  &kp RC(A)  &kp LC(LS(LEFT))  &kp LC(LS(DOWN))  &kp LC(LS(RIGHT))   &to 6       &kp END     &kp LEFT           &kp DOWN      &kp RIGHT  &kp APOSTROPHE  &trans
-&trans  &kp RC(Z)         &kp RC(X)         &kp RC(C)          &kp RC(V)   &mo 7    &kp INSERT     &kp LBKT  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp DELETE  &trans
-                                               &trans              &to 0  &trans        &trans        &to 1             &trans
+&trans   &kp F1   &kp F2     &kp F3     &kp F4   &kp F5      &kp HOME  &kp PAGE_UP             &kp UP  &kp PAGE_DOWN           &mo 3  &trans
+&trans   &kp F6   &kp F7     &kp F8     &kp F9  &kp F10       &kp END     &kp LEFT           &kp DOWN      &kp RIGHT  &kp APOSTROPHE  &trans
+&trans  &kp F11  &kp F12  &kp RC(C)  &kp RC(V)    &mo 7    &kp INSERT     &kp LBKT  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp DELETE  &trans
+                             &trans      &to 0   &trans        &trans        &to 1             &trans
             >;
         };
 
