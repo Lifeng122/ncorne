@@ -32,29 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-        };
-
-        esc {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-        };
-
-        test {
-            bindings = <&test>;
-            key-positions = <0 1 2>;
-        };
-
-        tst {
-            bindings = <&ceshi>;
-            key-positions = <12 13>;
-        };
-
         new_combo {
-            bindings = <&kp LCTRL>;
-            key-positions = <24 25 26 27 28 29>;
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
         };
     };
 
@@ -76,17 +56,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        BASE {
+        ZERO {
             label = "BASE";
             bindings = <
-      &kp TAB  &kp Q  &kp W             &kp E  &kp R  &kp T        &kp Y      &kp U          &kp I       &kp O     &kp P           &kp ESC
+      &kp ESC  &kp Q  &kp W             &kp E  &kp R  &kp T        &kp Y      &kp U          &kp I       &kp O     &kp P           &kp TAB
    &kp LSHIFT  &kp A  &kp S             &kp D  &kp F  &kp G        &kp H      &kp J          &kp K       &kp L  &kp SEMI  &kp SINGLE_QUOTE
 &kp LS(LCTRL)  &kp Z  &kp X             &kp C  &kp V  &kp B        &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp FSLH         &kp ENTER
                              &kp LC(LEFT_ALT)  &mo 2  &mo 1    &kp SPACE  &kp ENTER  &kp BACKSPACE
             >;
         };
 
-        N_FN {
+        ONE {
             label = "N&FN";
             bindings = <
 &kp CAPS  &none  &kp N7        &kp N8  &kp N9     &kp N0      &kp F10  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN  &kp TILDE
@@ -96,7 +76,7 @@
             >;
         };
 
-        SCUT {
+        TWO {
             label = "S-CUT";
             bindings = <
 &trans      &to 4      &kp RS(HOME)    &kp LC(LS(UP))        &kp RS(END)   &to 5      &kp HOME  &kp PAGE_UP             &kp UP  &kp PAGE_DOWN           &mo 3  &trans
@@ -163,6 +143,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans    &trans    &trans     &trans  &trans  &trans
                         &trans   &to 0  &trans       &trans     &to 0    &trans
+            >;
+        };
+
+        Layer__9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
