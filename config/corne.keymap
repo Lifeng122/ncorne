@@ -64,9 +64,9 @@
         ONE {
             label = "N&FN";
             bindings = <
-&kp LG(TAB)  &kp N1  &kp N2        &kp N3  &kp N4   &kp N5      &kp F10    &kp F7         &kp UP     &kp F9  &kp PRINTSCREEN  &kp TILDE
-  &kp LG(D)  &kp N6  &kp N7        &kp N8  &kp N9   &kp N0      &kp F11  &kp LEFT       &kp DOWN  &kp RIGHT   &kp SCROLLLOCK     &trans
-     &trans   &none  &kp N1        &kp N2  &kp N3  &kp DEL      &kp F12    &kp F1         &kp F2     &kp F3      &kp C_PAUSE     &trans
+&kp LG(TAB)  &kp N1  &kp N2        &kp N3  &kp N4   &kp N5     &kp LBKT  &kp RBKT         &kp UP   &kp DLLR     &kp PRCNT     &kp TILDE
+  &kp LG(D)  &kp N6  &kp N7        &kp N8  &kp N9   &kp N0    &kp GRAVE  &kp LEFT       &kp DOWN  &kp RIGHT  &kp LS(SEMI)  &kp LS(APOS)
+  &kp LA(D)   &none  &kp N1        &kp N2  &kp N3  &kp DEL     &kp BSLH  &kp SEMI       &kp LPAR   &kp RPAR     &kp QMARK        &trans
                              &kp LEFT_ALT   &mo 4    &mo 3    &kp LSHFT     &to 0  &kp BACKSPACE
             >;
         };
